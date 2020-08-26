@@ -1,4 +1,4 @@
-# Tarefa de Laboratório 01
+# Tarefa de Laboratório 01 :monocle_face:
 
 ## Inteiros
 
