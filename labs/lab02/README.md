@@ -80,3 +80,5 @@ Valor minimo para renegociacao: R$ 10.20
 ```
 
 Note que todos os valores da saída devem ser expressos com duas casas decimais. Utilize a formatação como sugerido acima.
+
+[Texto original para esta tarefa](https://www.ic.unicamp.br/~mc102/labs/roteiro-lab02.html)
