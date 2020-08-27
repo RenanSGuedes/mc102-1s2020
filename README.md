@@ -2,11 +2,11 @@
 
 ## Tarefas de Laboratório :smiley:
 
-- [ ] Oi mundo 
-- [ ] Aritmética com inteiros
-- [ ] Atrasos e renegociação
-- [ ] Será COVID-19?
-- [ ] Classificador de triângulos
+- [x] Oi mundo 
+- [x] Aritmética com inteiros
+- [x] Atrasos e renegociação
+- [x] Será COVID-19?
+- [x] Classificador de triângulos
 - [ ] Doe sangue doe vida! Em tempos de pandemia...
 - [ ] Corrida de caracóis
 - [ ] Desenhando polígonos
