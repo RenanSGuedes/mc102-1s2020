@@ -83,3 +83,58 @@ Então é possível vir à tona a seguinte questão: *"Por que a classe da vari�
 A resposta para isso vem do fato de que o `input`, ao não receber nenhuma função de conversão do tipo de dado, sempre armazenará uma `string` em seu interior. Não é a toa que se quiséssemos fazer operações aritméticas com `algum_numero` talvez não fosse retornado o que de fato esperamos, mas isso será tratado adiante.
 
 ## Operações :symbols:
+
+Em `python` é possível fazermos diversos tipos de operações. Normalmente quando esse tema é tratado fazemos a associação dessas operações contemplando o aspecto matemático da questão. Entretanto, será visto que o tema ultrapassa esse conceito e pode ser entendido sob outro plano quando aplicamos a lógica de programação. 
+
+Imagine que deseja-se mostrar duas palavras de modo que uma seja posicionada seguida da outra. Então a forma mais lógica é pensar em colocar as palavras seguindo uma ordem que resolva o pedido. Por exemplo, atribuimos a uma variável `palavra_1` o valor `"casa"`
+
+```python
+Python 3.7.9 (tags/v3.7.9:13c94747c7, Aug 17 2020, 18:58:18) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> palavra_1 = "casa"
+```
+
+A classe da variável `palavra_1` pode ser aferida por meio da função `type` analogamente ao que foi feito em outra seção, então
+
+```python
+>>> palavra_1 = "casa"
+>>> type(palavra_1)
+<class 'str'>
+```
+
+O retorno `<class 'str'>` indica pela abreviação de `str` que a classe é do tipo `string`. Essa resposta é obtida nos casos em que temos textos sendo armazenados pelas variáveis, sendo que os mesmos são cercados pelos caracteres de aspas. Elas, por sua vez, podem ser simples ou duplas
+
+```python
+>>> string_com_aspas_duplas = "Aspas duplas"
+>>> string_com_aspas_duplas
+'Aspas duplas'
+>>> string_com_aspas_simples = 'Aspas simples'
+>>> string_com_aspas_simples
+'Aspas simples'
+```
+
+Conclui-se que é facultativo o emprego dos tipos de aspas já que o valor declarado ao ser chamado traz a mesma forma - cercada por aspas simples.
+
+Digamos que quiséssemos atribuir uma qualidade à casa tendo em vista seu imenso tamanho e quantidade de cômodos. Com base nisso, vamos atribuir a uma nova varíável (`palavra_2`) o valor de `'imensa'`
+
+```python
+palavra_2 = "imensa"
+```
+
+Para colocar uma palavra seguida da outra podemos usar a função `print`, responsável por imprimir na tela os valores desejados
+
+```python
+>>> palavra_1 = "Casa"
+>>> palavra_2 = "imensa"
+>>> print(palavra_1, palavra_2)
+Casa imensa
+```
+
+
+
+
+
+
+
+
+ 
