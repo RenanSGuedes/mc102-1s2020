@@ -157,10 +157,10 @@ Uma maneira de imprimir de forma semelhante, só que em vez de `NoneType` passar
 
 A variável `expressao` representa a concatenção de `palavra_1` e `palavra_2` com a inserção do caractere espaço entre elas. Note que o espaço existe devido ao conteúdo presente entre as aspas e não pelo espaço deixado entre o operador (`+`) e as variáveis, sendo o último aplicado somente para melhor organização do código. Para melhorar as habilidades referente aos tipos de operadores acesse [Python Operators, w3schools](https://www.w3schools.com/python/python_operators.asp)
 
--[x] *Arithmetic operators* (`+`, `-`, `*`, `/`, `%`, `**`, `//`)
--[ ] *Assignment operators*
--[ ] *Comparison operators*
--[ ] *Logical operators*
--[ ] *Identity operators*
--[ ] *Membership operators*
--[ ] *Bitwise operators* 
+- [x] *Arithmetic operators* (`+`, `-`, `*`, `/`, `%`, `**`, `//`)
+- [] *Assignment operators*
+- [ ] *Comparison operators*
+- [ ] *Logical operators*
+- [ ] *Identity operators*
+- [ ] *Membership operators*
+- [ ] *Bitwise operators* 
