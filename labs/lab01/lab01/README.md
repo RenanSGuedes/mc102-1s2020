@@ -130,11 +130,37 @@ Para colocar uma palavra seguida da outra podemos usar a função `print`, respo
 Casa imensa
 ```
 
+Ao analisarmos o resultado do `print` vemos que a expressão `Casa imensa` foi impressa livrementente sem o acréscimo dos parêntesis. Porém, o espaço presente entre as palavras `Casa` e `imensa` é proveniente da vírgula da função `print`, ou seja, ao adicionar a vírgula é feita a concatenação das palavras, de modo que a enumeração imprime cada palavra seguida uma da outra com um espaço entre elas. Porém, se atribuírmos ao `print(palavra_1, palavra_2)` uma variável qualquer - por exemplo a letra `x` - e verificarmos o tipo dela teremos
 
+```python
+>>> palavra_1 = "Casa"
+>>> palavra_2 = "imensa"
+>>> x = print(palavra_1, palavra_2)
+Casa imensa
+>>> type(x)
+<class 'NoneType'>
+```
 
+A linha `<class 'NoneType'>` indica que a variável `x` não possui tipo.
 
+Uma maneira de imprimir de forma semelhante, só que em vez de `NoneType` passar a ter uma `string` seria abandonar a função `print` e se preocupar com os parâmetros passados para ela. O `NoneType` representa o retorno da função `print` e não do conteúdo o qual ela imprime ou recebe. Para concatenarmos *strings* fora do `print` vamos fazer uso de um símbolo matemático utilizado em operações de soma. Todavia, ao invés de somar números serão "somadas" palavras  
 
+```python
+>>> palavra_1 = "Casa"
+>>> palavra_2 = "imensa"
+>>> expressao = palavra_1 + " " + palavra_2
+>>> expressao
+'Casa imensa'
+>>> type(expressao)
+<class 'str'>
+```
 
+A variável `expressao` representa a concatenção de `palavra_1` e `palavra_2` com a inserção do caractere espaço entre elas. Note que o espaço existe devido ao conteúdo presente entre as aspas e não pelo espaço deixado entre o operador (`+`) e as variáveis, sendo o último aplicado somente para melhor organização do código. Para melhorar as habilidades referente aos tipos de operadores acesse [Python Operators, w3schools](https://www.w3schools.com/python/python_operators.asp)
 
-
- 
+-[x] *Arithmetic operators* (`+`, `-`, `*`, `/`, `%`, `**`, `//`)
+-[ ] *Assignment operators*
+-[ ] *Comparison operators*
+-[ ] *Logical operators*
+-[ ] *Identity operators*
+-[ ] *Membership operators*
+-[ ] *Bitwise operators* 
