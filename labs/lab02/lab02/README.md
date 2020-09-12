@@ -98,4 +98,4 @@ O tema de renegociação referido nessa tarefa está associado a um valor mínim
 * Multa (`penalty`): 2% do valor da fatura.
 * Juros (`interest`): 0.033% do valor da fatura multiplicado pelo número de dias em atraso.
 * Valor total (`total_value`): soma do valor inicial com valor da multa e dos juros.
-* Pagamento mínimo (`minimum_payment`): 10% do valor total.
+* Pagamento mínimo (`minimum_payment`): 10% do valor total. 
