@@ -149,4 +149,9 @@ Pi com duas casas após a vírgula: 3.14
 >>> n = 30.99
 >>> print('{:.2f}'.format(n))
 30.99 # sem arredondamento para n com dois dígitos após a vírgula
+>>>
 ```
+
+## Conclusão
+
+Essa tarefa é interessante e se aplica em diversos casos da realidade. Muitas vezes é observada a dificuldade dos alunos nessa parte ao não saberem diferenciar de forma correta os tipos de variáveis que são utilizadas e isso, como consequência, implica em inconsistências nos casos particulares vistos nos problemas. Mas no final das contas, a tarefa desempenha o papel de calcular itens de forma prática e automatizada, bastando o usuário entrar como os valores pedidos, e isso viabiliza diferentes aplicações quando utilizada com interfaces mais amigáveis ao usuário (não tratado aqui), porém, para esta parte da matéria de algoritmos e lógica basta entender como são calculados os valores numéricos, como eles são armazenados e as diferentes formas de concatenar *strings* e os números referidos.
